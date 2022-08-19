@@ -2,11 +2,8 @@ branch-defaults:
   default:
     environment: Udacityapi1-env
 deploy:
-  artifact: ./www/Archiv.zip
+  artifact: ./www/Archive.zip
 environment-defaults:
-  Udacityapi-env:
-    branch: null
-    repository: udagram-api
   Udacityapi1-env:
     branch: null
     repository: null
@@ -19,6 +16,6 @@ global:
   instance_profile: null
   platform_name: null
   platform_version: null
-  profile: null
-  sc: null
+  profile: eb-cli
+  sc: git
   workspace_type: Application
