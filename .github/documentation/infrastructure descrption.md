@@ -1,6 +1,6 @@
 # Infrastructure
 
-![infrastructure_diagram](./Screenshots/deployment-flow.png)
+![infrastructure_diagram](./Screenshots/1_deployment-flow.png)
 
 ## AWS
 
